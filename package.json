@@ -1,0 +1,22 @@
+{
+  "name": "template_Microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app",
+    "dev": "nodemon src/app",
+    "prod": "nodemon src/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^1.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
